@@ -1,5 +1,31 @@
 # Criptografia-de-C-sar
 Projeto em grupo desenvolvido em sala de aula que implementa uma variação da Cifra de César em C. O programa aplica deslocamentos progressivos baseados em diferentes sequências matemáticas (aritmética, geométrica, primos, Fibonacci e incremental), demonstrando lógica, criptografia e manipulação de strings.
+# 🔐 Cifra de César Progressiva Avançada
+
+Projeto em grupo desenvolvido em sala de aula que implementa uma variação da **Cifra de César** em **C**.  
+O programa aplica deslocamentos progressivos baseados em diferentes sequências matemáticas:  
+**Aritmética, Geométrica, Números Primos, Fibonacci** e **Incremental**.  
+
+💡 Objetivo: demonstrar conceitos de **criptografia clássica**, **manipulação de strings** e **lógica de programação em C**.
+
+## 🧠 Funcionalidades
+- Escolha entre 5 tipos de progressão de chave  
+- Conversão automática para letras maiúsculas  
+- Exibição detalhada dos cálculos de deslocamento  
+- Limite de até 1000 caracteres por texto  
+
+## ⚙️ Tecnologias Utilizadas
+- Linguagem C  
+- Bibliotecas: `stdio.h`, `stdlib.h`, `string.h`, `ctype.h`, `math.h`
+
+## 🚀 Execução
+Compile e execute o código em um terminal:
+```bash
+gcc cifra_progressiva.c -o cifra
+./cifra
+
+## Código
+
 #include <stdio.h>
 
 #include <stdlib.h>
